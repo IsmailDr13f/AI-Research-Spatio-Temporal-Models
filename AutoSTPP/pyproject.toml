@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autoint-stpp"
+version = "0.1.0"
+description = "AutoSTPP: Spatio-temporal point process models"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "loguru>=0.6.0",
+    "torchtyping",
+    "dotenv",
+    "aim",
+]
+
+[tool.setuptools]
+packages = [
+  "autoint_stpp",
+  "autoint_stpp.data",
+  "autoint_stpp.demo",
+  "autoint_stpp.experiment",
+  "autoint_stpp.features",
+  "autoint_stpp.integration",
+  "autoint_stpp.models",
+  "autoint_stpp.models.lightning",
+  "autoint_stpp.models.spatiotemporal",
+  "autoint_stpp.visualization"
+]
