@@ -1,3 +1,6 @@
 [submodule "AutoSTPP"]
 	path = AutoSTPP
 	url = https://github.com/IsmailDr13f/AutoSTPP.git
+[submodule "STPPGC_tutorial_mkdocs"]
+	path = STPPGC_tutorial_mkdocs
+	url = https://github.com/IsmailDr13f/STPPGC_tutorial_mkdocs.git
